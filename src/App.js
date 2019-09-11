@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import "./App.css";
-import NumberButton from "./components/ButtonComponents/NumberButtons/Numbers";
-import SpecialButton from "./components/ButtonComponents/SpecialButtons/Specials"
-import OperatorButton from "./components/ButtonComponents/OperatorButtons/Operators"
+import Numbers from "./components/ButtonComponents/NumberButtons/Numbers";
+import Specials from "./components/ButtonComponents/SpecialButtons/Specials"
+import Operators from "./components/ButtonComponents/OperatorButtons/Operators"
 import Display from "./components/DisplayComponents/Display"
 
 
@@ -25,11 +25,11 @@ function App() {
       <div className="App">
         <Display />
         <div className="leftSide">
-          <NumberButton />
-          <SpecialButton />
+          <Numbers />
+          <Specials />
         </div>
         <div className="rightSide">
-          <OperatorButton />
+          <Operators />
         </div>
       </div>
     </div>
