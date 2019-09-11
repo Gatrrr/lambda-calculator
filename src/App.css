@@ -5,11 +5,12 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    margin: auto;
 }
 .display {
     margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 375px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +20,22 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+    margin: auto;
+}
+
+.logo {
+    width: 20%;
+    margin: 20px 20px 5px;
+}
+
+.number-button, .operator-button, .special-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  box-shadow: 1px 1px black;
+  color: white;
+  margin: 10px;
+}
+
